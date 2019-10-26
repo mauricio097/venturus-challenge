@@ -1,0 +1,62 @@
+.container {
+    width: 422px;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: red;
+
+    background: transparent linear-gradient(90deg, #45AAF2 0%, #3867D6 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000000F;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.termometerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.termometerLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.dayText {
+    font: Bold 18px/21px Arial;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.dateText {
+    font: Regular 16px/18px Arial;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.icon {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.weatherText {
+    font: Bold 16px/18px Arial;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.termometerIcon {
+    margin: 5px;  
+    color: #FFFFFF;
+}

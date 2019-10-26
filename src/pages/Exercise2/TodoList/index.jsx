@@ -54,7 +54,7 @@ class TodoList extends Component {
             result.destination.index
         );
 
-        this.state.todos = todos;
+        this.setState({todos: todos})
 
         this.props.onChangeOrder(this.state.todos);
     }
@@ -67,7 +67,7 @@ class TodoList extends Component {
             <DragDropContext onDragEnd={this.onDragEnd}>
                 <Droppable droppableId="droppable">
                     {(provided, snapshot) => (
-                        <div
+                        <div                            
                             {...provided.droppableProps}
                             ref={provided.innerRef}
                             style={getListStyle(snapshot.isDraggingOver)}>
@@ -78,7 +78,7 @@ class TodoList extends Component {
                                         draggableId={item.id}
                                         index={index}>
                                         {(provided, snapshot) => (
-                                            <div
+                                            <div                                    
                                                 ref={provided.innerRef}
                                                 {...provided.draggableProps}
                                                 {...provided.dragHandleProps}

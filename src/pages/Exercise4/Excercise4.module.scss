@@ -10,5 +10,13 @@
     justify-content: center;
     flex: 1;
     min-height: 100vh;
+    flex-direction: row;
+}
 
+.dayContainer {
+    display: flex;
+    flex-direction: column;
+    height: 581px;
+    justify-content: space-between;
+    margin-left: 20px;
 }
