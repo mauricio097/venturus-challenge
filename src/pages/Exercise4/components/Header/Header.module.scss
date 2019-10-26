@@ -1,0 +1,56 @@
+.header {
+    background-color: #2BCBBA;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 102px;
+}
+
+.logoText { 
+    font: Bold Italic 20px/23px Arial;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoIcon {
+    color: white;
+    font-size: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+input {
+    opacity: 1;
+    padding: 7px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.inputIcon {
+    color: #4B6584;
+    height: 32px;
+    cursor: pointer;
+}
+
+.boxSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    padding-right: 15px;
+    height: 32px;
+    width: 273px;
+}

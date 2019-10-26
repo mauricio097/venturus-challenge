@@ -1,6 +1,14 @@
-.PrototypeImage {
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    background-color: #eeeff0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 100vh;
+
 }

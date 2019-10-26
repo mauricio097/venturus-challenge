@@ -1,0 +1,87 @@
+.container {
+    width: 669px;
+    height: 581px;
+    border-radius: 4px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #0000000F;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.titleText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleCity {
+    text-align: left;
+    font: Bold 26px/31px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
+
+.titleDate {
+    text-align: left;
+    font: Regular 16px/18px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
+
+.titleIcons {
+    color: #2BCBBA;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.titleTemperatureText {
+    font: Bold 16px/18px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
+
+.titleTemperatureTextItalic {
+    text-align: left;
+    font: Regular 18px/21px Arial;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.contentContainer {
+    display: flex;
+    flex: 1;
+    background-color: green;
+    height: 100%;
+}
+
+.contentTemperature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.temperature {
+    text-align: center;
+    font: Regular Arial;
+    font-size: 160px;
+    letter-spacing: 0;
+    color: #4B6584;
+    opacity: 1;
+}
